@@ -21,6 +21,14 @@ return {
         "Enojado",
         "Wink",
         "Cool",
+        "Fuego",
+        "Explosión",
+        "Trueno",
+        "Mágico",
+        "Bruja",
+        "Fantasma",
+        "Calavera",
+        "Demonio",
     },
 
     -- Datos de cada sticker
@@ -79,6 +87,46 @@ return {
             Image   = "rbxassetid://129224642026377",
             LabelES = "Cool",
             LabelEN = "Cool",
+        },
+        Fuego = {
+            Image   = "rbxassetid://110399103599356",
+            LabelES = "Fuego",
+            LabelEN = "Fire",
+        },
+        Explosión = {
+            Image   = "rbxassetid://92508415428532",
+            LabelES = "Explosión",
+            LabelEN = "Explosion",
+        },
+        Trueno = {
+            Image   = "rbxassetid://116834306902804",
+            LabelES = "Trueno",
+            LabelEN = "Thunder",
+        },
+        Mágico = {
+            Image   = "rbxassetid://88512827318318",
+            LabelES = "Mágico",
+            LabelEN = "Magic",
+        },
+        Bruja = {
+            Image   = "rbxassetid://104843488715259",
+            LabelES = "Bruja",
+            LabelEN = "Witch",
+        },
+        Fantasma = {
+            Image   = "rbxassetid://120595244684744",
+            LabelES = "Fantasma",
+            LabelEN = "Ghost",
+        },
+        Calavera = {
+            Image   = "rbxassetid://136019522994141",
+            LabelES = "Calavera",
+            LabelEN = "Skull",
+        },
+        Demonio = {
+            Image   = "rbxassetid://92086956614552",
+            LabelES = "Demonio",
+            LabelEN = "Demon",
         },
     }
 }
