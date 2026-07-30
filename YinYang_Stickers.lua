@@ -1,12 +1,16 @@
 --// ════════════════════════════════════════════════════════════════
 --// YinYang_Stickers.lua — Archivo externo de stickers
---// Subir a: https://github.com/Yinyangzx/Stickers
+--// Subir a: https://github.com/Yinyangzx/Yin-Stickers
 --// La librería descarga este archivo automáticamente.
 --// Para agregar stickers: agregar entrada en Stickers + nombre en Order.
+--//
+--// ⚠️ REGLA IMPORTANTE: Los KEYS de la tabla Stickers (y los nombres
+--// en Order) deben ser ASCII puro, sin tildes ni caracteres especiales.
+--// Los labels de display (LabelES, LabelEN) SÍ pueden tener tildes.
 --// ════════════════════════════════════════════════════════════════
 
 return {
-    Version = 1,
+    Version = 2,
 
     -- Orden en que aparecen los stickers en la UI
     Order = {
@@ -22,9 +26,9 @@ return {
         "Wink",
         "Cool",
         "Fuego",
-        "Explosión",
+        "Explosion",   -- ← sin tilde (era "Explosión")
         "Trueno",
-        "Mágico",
+        "Magico",      -- ← sin tilde (era "Mágico")
         "Bruja",
         "Fantasma",
         "Calavera",
@@ -93,9 +97,9 @@ return {
             LabelES = "Fuego",
             LabelEN = "Fire",
         },
-        Explosión = {
+        Explosion = {                          -- ← key sin tilde
             Image   = "rbxassetid://92508415428532",
-            LabelES = "Explosión",
+            LabelES = "Explosión",             -- ← label SÍ puede tener tilde
             LabelEN = "Explosion",
         },
         Trueno = {
@@ -103,9 +107,9 @@ return {
             LabelES = "Trueno",
             LabelEN = "Thunder",
         },
-        Mágico = {
+        Magico = {                             -- ← key sin tilde
             Image   = "rbxassetid://88512827318318",
-            LabelES = "Mágico",
+            LabelES = "Mágico",               -- ← label SÍ puede tener tilde
             LabelEN = "Magic",
         },
         Bruja = {
