@@ -1,14 +1,16 @@
 --// ════════════════════════════════════════════════════════════════
 --// YinYang_Stickers.lua — Archivo externo de stickers
---// Subir a: https://github.com/Yinyangzx/Stickers
+--// Subir a: https://github.com/Yinyangzx/Yin-Stickers
 --// La librería descarga este archivo automáticamente.
 --// Para agregar stickers: agregar entrada en Stickers + nombre en Order.
+--//
+--// ⚠️ REGLA IMPORTANTE: Los KEYS de la tabla Stickers (y los nombres
+--// en Order) deben ser ASCII puro, sin tildes ni caracteres especiales.
+--// Los labels de display (LabelES, LabelEN) SÍ pueden tener tildes.
 --// ════════════════════════════════════════════════════════════════
 
 return {
-    Version = 1,
-    Creator = "mousoza",
-    DefaultCreator = "mousoza",
+    Version = 2,
 
     -- Orden en que aparecen los stickers en la UI
     Order = {
@@ -24,9 +26,9 @@ return {
         "Wink",
         "Cool",
         "Fuego",
-        "Explosión",
+        "Explosion",   -- ← sin tilde (era "Explosión")
         "Trueno",
-        "Mágico",
+        "Magico",      -- ← sin tilde (era "Mágico")
         "Bruja",
         "Fantasma",
         "Calavera",
@@ -39,115 +41,96 @@ return {
             Image   = "rbxassetid://135857695171095",
             LabelES = "Sonrisa",
             LabelEN = "Smile",
-            Creator = "mousoza",
         },
         Llorar = {
             Image   = "rbxassetid://138363247925206",
             LabelES = "Llorar",
             LabelEN = "Crying",
-            Creator = "mousoza",
         },
         Amor = {
             Image   = "rbxassetid://76164124882568",
             LabelES = "Amor",
             LabelEN = "Love",
-            Creator = "mousoza",
         },
         Corazon = {
             Image   = "rbxassetid://76164124882568",
             LabelES = "Corazón",
             LabelEN = "Heart",
-            Creator = "mousoza",
         },
         Emoji = {
             Image   = "rbxassetid://133861773375312",
             LabelES = "Emoji",
             LabelEN = "Emoji",
-            Creator = "mousoza",
         },
         Risa = {
             Image   = "rbxassetid://109165098870367",
             LabelES = "Risa",
             LabelEN = "Laugh",
-            Creator = "mousoza",
         },
         Sorpresa = {
             Image   = "rbxassetid://89213081637073",
             LabelES = "Sorpresa",
             LabelEN = "Surprised",
-            Creator = "mousoza",
         },
         Triste = {
             Image   = "rbxassetid://80817302481160",
             LabelES = "Triste",
             LabelEN = "Sad",
-            Creator = "mousoza",
         },
         Enojado = {
             Image   = "rbxassetid://72815688632249",
             LabelES = "Enojado",
             LabelEN = "Angry",
-            Creator = "mousoza",
         },
         Wink = {
             Image   = "rbxassetid://72602706593283",
             LabelES = "Guiño",
             LabelEN = "Wink",
-            Creator = "mousoza",
         },
         Cool = {
             Image   = "rbxassetid://129224642026377",
             LabelES = "Cool",
             LabelEN = "Cool",
-            Creator = "mousoza",
         },
         Fuego = {
             Image   = "rbxassetid://110399103599356",
             LabelES = "Fuego",
             LabelEN = "Fire",
-            Creator = "mousoza",
         },
-        Explosión = {
+        Explosion = {                          -- ← key sin tilde
             Image   = "rbxassetid://92508415428532",
-            LabelES = "Explosión",
+            LabelES = "Explosión",             -- ← label SÍ puede tener tilde
             LabelEN = "Explosion",
-            Creator = "mousoza",
         },
         Trueno = {
             Image   = "rbxassetid://116834306902804",
             LabelES = "Trueno",
             LabelEN = "Thunder",
-            Creator = "mousoza",
         },
-        Mágico = {
+        Magico = {                             -- ← key sin tilde
             Image   = "rbxassetid://88512827318318",
-            LabelES = "Mágico",
+            LabelES = "Mágico",               -- ← label SÍ puede tener tilde
             LabelEN = "Magic",
-            Creator = "mousoza",
         },
         Bruja = {
             Image   = "rbxassetid://104843488715259",
             LabelES = "Bruja",
             LabelEN = "Witch",
-            Creator = "mousoza",
         },
         Fantasma = {
             Image   = "rbxassetid://120595244684744",
             LabelES = "Fantasma",
             LabelEN = "Ghost",
-            Creator = "mousoza",
         },
         Calavera = {
             Image   = "rbxassetid://136019522994141",
             LabelES = "Calavera",
             LabelEN = "Skull",
-            Creator = "mousoza",
         },
         Demonio = {
             Image   = "rbxassetid://92086956614552",
             LabelES = "Demonio",
             LabelEN = "Demon",
-            Creator = "mousoza",
         },
     }
 }
