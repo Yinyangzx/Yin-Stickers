@@ -26,13 +26,32 @@ return {
         "Wink",
         "Cool",
         "Fuego",
-        "Explosion",   -- ← sin tilde (era "Explosión")
+        "Explosion",
         "Trueno",
-        "Magico",      -- ← sin tilde (era "Mágico")
+        "Magico",
         "Bruja",
         "Fantasma",
         "Calavera",
         "Demonio",
+        "Emoji2",
+        "Emoji3",
+        "Emoji4",
+        "Emoji5",
+        "Emoji6",
+        "Emoji7",
+        "Emoji8",
+        "Emoji9",
+        "Emoji10",
+        "Emoji11",
+        "Emoji12",
+        "Emoji13",
+        "Emoji14",
+        "Emoji15",
+        "Emoji16",
+        "Emoji17",
+        "Emoji18",
+        "Emoji19",
+        "Emoji20",
     },
 
     -- Datos de cada sticker
@@ -131,6 +150,101 @@ return {
             Image   = "rbxassetid://92086956614552",
             LabelES = "Demonio",
             LabelEN = "Demon",
+        },
+        Emoji2 = {
+            Image   = "rbxassetid://137126758667284",
+            LabelES = "Emoji2",
+            LabelEN = "Emoji2",
+        },
+        Emoji3 = {
+            Image   = "rbxassetid://100678993930995",
+            LabelES = "Emoji3",
+            LabelEN = "Emoji3",
+        },
+        Emoji4 = {
+            Image   = "rbxassetid://100345922509049",
+            LabelES = "Emoji4",
+            LabelEN = "Emoji4",
+        },
+        Emoji5 = {
+            Image   = "rbxassetid://112758471473211",
+            LabelES = "Emoji5",
+            LabelEN = "Emoji5",
+        },
+        Emoji6 = {
+            Image   = "rbxassetid://118210800680043",
+            LabelES = "Emoji6",
+            LabelEN = "Emoji6",
+        },
+        Emoji7 = {
+            Image   = "rbxassetid://104930670798953",
+            LabelES = "Emoji7",
+            LabelEN = "Emoji7",
+        },
+        Emoji8 = {
+            Image   = "rbxassetid://111086994425425",
+            LabelES = "Emoji8",
+            LabelEN = "Emoji8",
+        },
+        Emoji9 = {
+            Image   = "rbxassetid://98302768923536",
+            LabelES = "Emoji9",
+            LabelEN = "Emoji9",
+        },
+        Emoji10 = {
+            Image   = "rbxassetid://85952272922609",
+            LabelES = "Emoji10",
+            LabelEN = "Emoji10",
+        },
+        Emoji11 = {
+            Image   = "rbxassetid://95705887311474",
+            LabelES = "Emoji11",
+            LabelEN = "Emoji11",
+        },
+        Emoji12 = {
+            Image   = "rbxassetid://135929327239841",
+            LabelES = "Emoji12",
+            LabelEN = "Emoji12",
+        },
+        Emoji13 = {
+            Image   = "rbxassetid://103525376091448",
+            LabelES = "Emoji13",
+            LabelEN = "Emoji13",
+        },
+        Emoji14 = {
+            Image   = "rbxassetid://88295400480520",
+            LabelES = "Emoji14",
+            LabelEN = "Emoji14",
+        },
+        Emoji15 = {
+            Image   = "rbxassetid://125415121021604",
+            LabelES = "Emoji15",
+            LabelEN = "Emoji15",
+        },
+        Emoji16 = {
+            Image   = "rbxassetid://103005450871974",
+            LabelES = "Emoji16",
+            LabelEN = "Emoji16",
+        },
+        Emoji17 = {
+            Image   = "rbxassetid://104843034307695",
+            LabelES = "Emoji17",
+            LabelEN = "Emoji17",
+        },
+        Emoji18 = {
+            Image   = "rbxassetid://70369002557517",
+            LabelES = "Emoji18",
+            LabelEN = "Emoji18",
+        },
+        Emoji19 = {
+            Image   = "rbxassetid://114826712564965",
+            LabelES = "Emoji19",
+            LabelEN = "Emoji19",
+        },
+        Emoji20 = {
+            Image   = "rbxassetid://94598866267972",
+            LabelES = "Emoji20",
+            LabelEN = "Emoji20",
         },
     }
 }
